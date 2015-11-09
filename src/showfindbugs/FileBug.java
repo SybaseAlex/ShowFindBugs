@@ -38,7 +38,7 @@ public class FileBug {
 
 	@Override
 	public String toString() {
-		return " classname = " + classname + "\n"
+		return "\n classname = " + classname + "\n"
 				+ bugInstance.toString() + "\n";
 	}
 }

@@ -1,6 +1,7 @@
 
 package showfindbugs;
 
+import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -15,13 +16,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class BugCollection {
 
 	@XmlElement
-	private FileBug file;
+	private List<FileBug> file;
 
-	public FileBug getFile() {
+	public List<FileBug> getFile() {
 		return file;
 	}
 
-	public void setFile(FileBug file) {
+	public void setFile(List<FileBug> file) {
 		this.file = file;
 	}
 

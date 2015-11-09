@@ -25,7 +25,7 @@ public class BugInstance {
 	@Override
 	public String toString() {
 		return " type = " + type + "\n lineNumber = " + lineNumber + "\n" 
-				+ " message = " + message + "\n";
+				+ " message = " + message;
 	}
 
 	public String getType() {
