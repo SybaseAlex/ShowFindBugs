@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author Alex
+ * bug collection @author Alex
  */
 @XmlRootElement(name = "BugCollection")
 @XmlAccessorType(XmlAccessType.FIELD)
