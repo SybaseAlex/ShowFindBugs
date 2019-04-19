@@ -1,3 +1,5 @@
 commit #1 after checkout
 
 commit #2 after checkout
+
+commit #3 after checkout
