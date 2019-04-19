@@ -1,0 +1,22 @@
+# Global 
+
+bin/
+*.orig
+.gradle
+.settings
+build
+.classpath
+.project
+classes
+testClasses/
+.pmd
+*~
+.idea/
+*.iml
+*.ipr
+*.iws
+module.info
+*.swp
+test.properties
+# Local
+# Global
